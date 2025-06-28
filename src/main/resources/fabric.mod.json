@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "servertils",
+  "version": "1.0.0",
+  "name": "Servertils",
+  "description": "A utility mod for minecraft servers",
+  "authors": ["darwincereska"],
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "dev.darwincereska.servertils.ServertilsMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "fabric": "*",
+    "minecraft": "1.21.4"
+  }
+}
